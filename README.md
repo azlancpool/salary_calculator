@@ -10,7 +10,7 @@ RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00
 
 ### Business Rules
 The following business rules are defined in addition to those initially imposed for the correct operation of the program:
-* The information will be read from the input.txt file contained in this repository, since the program has this file configured for reading information. This was defined because no graphical interface was requested in which the path of the file could have been specified.
+* The information will be read from the [input.txt](https://github.com/azlancpool/salary_calculator/blob/master/input.txt) file contained in this repository, since the program has this file configured for reading information. This was defined because no graphical interface was requested in which the path of the file could have been specified.
 * The file will contain information of a user and the hours worked per line. If this format is not maintained, the system will not be able to calculate the salary to be received optimally.
 
 ### Dependency manager
