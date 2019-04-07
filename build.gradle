@@ -1,0 +1,22 @@
+buildscript {
+
+  repositories {
+    mavenCentral()
+  }
+  
+}
+	
+subprojects {
+	repositories {
+    	mavenCentral()
+    	maven {
+      		url "https://plugins.gradle.org/m2/"
+    	}
+  	}
+}
+
+allprojects  {
+   	group = 'ec.com.ioet.salary.calculator'
+	version = "1.0.0-SNAPSHOT"
+}
+

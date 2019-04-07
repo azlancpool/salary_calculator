@@ -1,0 +1,14 @@
+target
+bin
+.settings
+.pmd
+.jazzignore
+.metadata
+.externalToolBuilders
+pmd-rulesets.xml
+.idea
+*.iml
+build
+.gradle
+.project
+.classpath
